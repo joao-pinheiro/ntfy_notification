@@ -1,0 +1,5 @@
+[update_manager ntfy_notification]
+type: git_repo
+path: ~/ntfy_notification
+origin: https://github.com/joao-pinheiro/ntfy_notification.git
+is_system_service: False
