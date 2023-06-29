@@ -4,8 +4,6 @@ import requests as requests
 class NtfyNotification:
     def __init__(self, config):
         self.client = None
-        self.server = config.get_server()
-        self.name = config.get_name()
         self.printer = config.get_printer()
 
         ntfy_host = config.get('ntfy_host', None)
